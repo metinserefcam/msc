@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Roboto Condensed, sans-serif;
+}
+
+h1 {
+  font-family: "Pushster", cursive;
+  margin: 50px auto 0 auto;
+  font-size: 562.5%;
+  color: #519259;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #519259;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 2em;
+  color: #F0BB62;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+hr {
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #064635;
+  width: 7%;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  color: #F0BB62;
+  font-family: Roboto Condensed, sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+a:hover{
+  color: white;
+}
+/************************Class Selectors************/
+.top-container {
+  background-color: #F4EEA9;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.middle-container {
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #519259;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-size: 1em;
+}
+
+.spiderman {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.apple-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mic-img {
+  float: right;
+  width: 25%;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #F0BB62;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.contact-me {
+  width: 30%;
+  margin: auto;
+}
+.copyright {
+  font-size: 1em;
+}
+.profilepic {
+  width: 55%;
+}
